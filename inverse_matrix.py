@@ -1,5 +1,7 @@
 import numpy as np
+import math
 
+from numpy.ma.core import arctan
 
 # Оголошення вихідної матриці
 matrix = np.array([[1, 0, 3],
@@ -18,3 +20,5 @@ print(matrix)
 print("\nОбернена матриця:")
 print(inverse_matrix)
 print(matrix.dot(inverse_matrix))
+
+print(arctan(0.25))
